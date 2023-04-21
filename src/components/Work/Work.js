@@ -12,7 +12,7 @@ const JOBS = [
         Test engineer - SJ
       </p>
     ),
-    workDate: '2022 AUG - ongoing',
+    workDate: '2022 AUG - ',
     description: `I'm currently a part of a frontend team whose purpose is to facilitate the
     integration of a new webbsolution. My role has been to be part of the development and
     develop automated tests, testsessions, set up pipelines and provide documentation for internal users.
