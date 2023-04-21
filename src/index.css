@@ -1,0 +1,16 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border-secondary border-2 text-secondary rounded px-2 py-2 hover:bg-primaryTint;
+  }
+}
+
+@layer utilities {
+  .grid-custom {
+    grid-template-columns: repeat(1, minmax(0, max-content));
+  }
+}
